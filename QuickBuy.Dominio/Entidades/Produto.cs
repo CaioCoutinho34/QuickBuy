@@ -9,7 +9,8 @@
 
         public override void Validate()
         {
-            throw new System.NotImplementedException();
+            if (string.IsNullOrEmpty(Nome))
+                AdicionarCritica("Não foi identificado nome no campo porfavor preencha");
         }
     }
 }
