@@ -1,0 +1,10 @@
+{
+  "chave": "ValorChave",
+  "connectionString": {
+    "SqlServerConnection": "",
+    "QuickBuyDb": "Server=localhost; Database=QuickBuyDb; UserID=root; Password=admin; Trusted_Connection=False;"
+  }
+
+}
+
+  
